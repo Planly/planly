@@ -3996,7 +3996,7 @@ h1 {
   text-align: center; }
   h1 span {
     color: #f79537;
-    text-transform: uppercase; }
+    font-weight: bold; }
   @media screen and (min-width: 40em) and (max-width: 63.9375em) {
     h1 {
       font-size: 3rem; } }
@@ -4012,12 +4012,13 @@ h3 {
 
 .icons {
   font-size: 10rem; }
-  .icons .icon-facebook {
+  .icons.icon-facebook {
     color: #3B5998; }
-  .icons .icon-twitter {
+  .icons.icon-twitter {
     color: #55acee; }
-  .icons .icon-mail {
-    color: #FF0039; }
+  .icons.icon-mail {
+    color: #FF0039;
+    font-size: 12rem; }
 
 #mc_embed_signup {
   background: #fff;
