@@ -105,6 +105,10 @@ h2 {
 
 h3 {
   font-size: 1.6rem;
+  span {
+    color: $primary-color;
+    font-weight: bold;
+  }
 }
 
 .icons {
@@ -123,6 +127,7 @@ h3 {
 
 #mc_embed_signup{
   background: #fff;
-  clear: left;
+  clear: both;;
   width:100%;
+  float: left;
 }
