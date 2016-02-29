@@ -4004,6 +4004,21 @@ h1 {
     h1 {
       font-size: 3rem; } }
 
+h2 {
+  font-size: 3rem; }
+
+h3 {
+  font-size: 1.6rem; }
+
+.icons {
+  font-size: 10rem; }
+  .icons .icon-facebook {
+    color: #000; }
+  .icons .icon-twitter {
+    color: #000; }
+  .icons .icon-mail {
+    color: #000; }
+
 #mc_embed_signup {
   background: #fff;
   clear: left;

@@ -98,6 +98,26 @@ h1 {
   }
 }
 
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 1.6rem;
+}
+
+.icons {
+  font-size: 10rem;
+  .icon-facebook {
+    color: $facebook;
+  }
+  .icon-twitter {
+    color: $twitter;
+  }
+  .icon-mail {
+    color: $mail;
+  }
+}
 
 #mc_embed_signup{
   background: #fff;

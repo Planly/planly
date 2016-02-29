@@ -1,3 +1,3 @@
-# Sic Inc Website
+# Planly Website
 
-** View the site here - [Sic Inc](http://sicinc.co/)**
+** View the site here - [Sic Inc](http://planly.co/)**
