@@ -11,15 +11,83 @@ html(class="no-js" lang="en")
     section
       .wrapper
         .row
-          .large-4.medium-9.columns
-            #sic
-          .large-8.medium-3.columns
-            h1 Planly
-            h3 consult@planly.co
+          .columns.small-8.small-centered
+            .logo
+              img.float-center(src="/images/logo.jpg", alt="Logo")
+        .row
+          .columns.large-12.float-center
+            h1 Lets you plan
+              = " "
+              span events
+            .rotator
+              #content-1 simp
+                span ly
+              #content-1 quick
+                span ly
+              #content-1 easi
+                span ly
+              #content-1 free
+                span ly
+              #content-1 bold
+                span ly
+        .row
+          .columns.small-5.small-centered
+            a.button.action.float-center(href="#welcome") Learn More
+    section#welcome
+      .wrapper
+        .row
+          .columns.small-8.small-centered
+            .logo
+              img.float-center(src="/images/logo.jpg", alt="Logo")
+        .row
+          .columns.small-10.small-centered
+            h2 Welcome! We're launching soon!
+            p We are wrapping some things up should be done soon.
+            p Sign up to get an alert when we're ready.
+          .columns.small-5.small-centered
+            #mc_embed_signup
+              form(action="//weddingnook.us10.list-manage.com/subscribe/post?u=3205c8140b7ab7c62727f87c9&amp;id=07d48bdace" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate)
+                #mc_embed_signup_scroll
+                  .mc-field-group
+                    label(for="mce-EMAIL") Email Address
+                    input.required.email#mce-EMAIL(type="email" value="" name="EMAIL")
+                  #mce-responses.clear
+                    .response#mce-error-response(style="display:none")
+                    .response#mce-success-response(style="display:none")
+                  .sdd(style="position: absolute; left: -5000px;" aria-hidden="true")
+                    input(type="text" name="b_3205c8140b7ab7c62727f87c9_07d48bdace" tabindex="-1" value="")
+                  .clear
+                    a(href="#givaway")
+                      input.button(type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe")
+    section
+      .wrapper
+        .row
+          .columns.small-8.small-centered
+            .logo
+              img.float-center(src="/images/logo.jpg", alt="Logo")
+        .row
+          .columns.small-10.small-centered
+            h2 Party Givaway on us!
+            p Whoever refers the most friends
+            p wins a roof top party.
+        .row
+          .columns.small-5.small-centered
+            a.button.action.float-center(href="/") Do It
+    section
+      .wrapper
+        .row
+          .columns.small-8.small-centered
+            .logo
+              img.float-center(src="/images/logo.jpg", alt="Logo")
+        .row
+          .columns.small-10.small-centered
+            h2 Party Givaway on us!
+            p Whoever refers the most friends
+            p wins a roof top party.
+        .row
+          .columns.small-5.small-centered
+            a.button.action.float-center(href="/") Do It
     script(src="bower_components/jquery/dist/jquery.js")
     script(src="bower_components/what-input/what-input.js")
     script(src="bower_components/foundation-sites/dist/foundation.js")
-    script(src="//cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.min.js")
-    script(src="//cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.ui.min.js")
-    script(src="js/min/lazyline-min.js")
     script(src="js/min/app-min.js")

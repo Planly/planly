@@ -43,37 +43,13 @@
 @include motion-ui-transitions;
 @include motion-ui-animations;
 
-@mixin transition($transition...) {
-  -moz-transition:    $transition;
-  -o-transition:      $transition;
-  -webkit-transition: $transition;
-  transition:         $transition;
-}
-
-body {
-  background-color: $primary-color;
-  @include breakpoint(medium only) {
-    padding: 3rem;
-  }
-  @include breakpoint(small only) {
-    padding: 1rem;
-  }
-}
-
-
 section {
-  // background-image: -webkit-linear-gradient(left, #EC6F66 0%, #F3A183 100%);
-  // background-image: -o-linear-gradient(left, #EC6F66 0%, #F3A183 100%);
-  // background-image: linear-gradient(to right, #EC6F66 0%, #F3A183 100%);
-  // border-radius: 10px;
   margin: 0 auto;
   position: relative;
   top: 50%;
   transform: translateY(-50%);
   height: 100%;
   width: 100%;
-  // margin: 6rem;
-  // display: none;
 }
 
 .wrapper {
@@ -82,17 +58,38 @@ section {
   transform: translateY(-50%);
   max-width: 50rem;
   margin: 0 auto;
+  text-align: center;
+  // height: 100vh;
+}
+
+.logo {
+  margin-bottom: 3rem;
+}
+
+.rotator {
+  font-size: 6rem;
+  text-align: center;
+  span {
+    color: $primary-color;
+  }
+}
+
+// Action Button
+
+.action {
+  font-size: 2rem;
+  margin-top: 3rem;
+  background: $secondary-color;
 }
 
 h1 {
-  // border-top: 2px solid $white;
-  // border-bottom: 2px solid $white;
-  font-weight: 200;
-  text-transform: uppercase;
-  color: $white;
-  font-size: 8.4rem;
-  line-height: 6.2rem;
-  margin-top: 5.8rem;
+  text-align: center;
+  // text-transform: uppercase;
+  // font-weight: 200;
+  span {
+    color: #f79537;
+    text-transform: uppercase;
+  }
   @include breakpoint(medium only) {
     font-size: 3rem;
   }
@@ -101,23 +98,9 @@ h1 {
   }
 }
 
-h3 {
-  color: $white;
-  font-size: 2.8rem;
-  text-transform: uppercase;
-  font-weight: 200;
-}
 
-.icon-row {
-  .columns {
-    text-align: center;
-    .icon {
-      @include transition(color .3s, border-color .3s);
-      font-size: 4rem;
-      color: $white;
-      &:hover {
-        color: lighten($black, 10%);
-      }
-    }
-  }
+#mc_embed_signup{
+  background: #fff;
+  clear: left;
+  width:100%;
 }

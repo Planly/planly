@@ -3225,25 +3225,16 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/images\/background.jpg": {
+	"\/images\/logo.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 63295,
-		"inputAbbreviatedPath": "\/images\/background.jpg",
-		"outputAbbreviatedPath": "\/images\/background.jpg",
+		"initialSize": 30246,
+		"inputAbbreviatedPath": "\/images\/logo.jpg",
+		"outputAbbreviatedPath": "\/images\/logo.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/index.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"processed": 0
 		},
 	"\/index.jade": {
 		"compileDebug": 1,
@@ -3264,17 +3255,6 @@
 		"outputAbbreviatedPath": "\/js\/min\/app-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/js\/lazyline.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/lazyline.js",
-		"outputAbbreviatedPath": "\/js\/min\/lazyline-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
