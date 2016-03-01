@@ -112,7 +112,7 @@ h3 {
 }
 
 .icons {
-  font-size: 10rem;
+  font-size: 8rem;
   &.icon-facebook {
     color: $facebook;
   }
@@ -121,8 +121,13 @@ h3 {
   }
   &.icon-mail {
     color: $mail;
-    font-size: 12rem;
   }
+}
+
+.legal {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
 }
 
 #mc_embed_signup{

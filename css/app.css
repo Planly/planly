@@ -4014,14 +4014,18 @@ h3 {
     font-weight: bold; }
 
 .icons {
-  font-size: 10rem; }
+  font-size: 8rem; }
   .icons.icon-facebook {
     color: #3B5998; }
   .icons.icon-twitter {
     color: #55acee; }
   .icons.icon-mail {
-    color: #FF0039;
-    font-size: 12rem; }
+    color: #FF0039; }
+
+.legal {
+  position: absolute;
+  bottom: 5px;
+  left: 5px; }
 
 #mc_embed_signup {
   background: #fff;
