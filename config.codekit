@@ -3236,6 +3236,15 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/index.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/index.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
@@ -3372,15 +3381,6 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
-		},
-	"\/social.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/social.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
 		},
 	"\/social.jade": {
 		"compileDebug": 1,
