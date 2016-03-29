@@ -3236,6 +3236,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/Official-Planly-Logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8900,
+		"inputAbbreviatedPath": "\/images\/Official-Planly-Logo.png",
+		"outputAbbreviatedPath": "\/images\/Official-Planly-Logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/planly-square.png": {
 		"fileType": 32768,
 		"ignore": 0,
